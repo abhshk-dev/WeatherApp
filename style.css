@@ -1,0 +1,216 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*---- Custom Styling ----*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #022020d0;
+  background-image: url("https://images.unsplash.com/photo-1592210454359-9043f067919b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+}
+
+.card {
+  background: rgb(101 148 205 / 49%);
+  box-shadow: 18px 28px 80px;
+  border: 0.3px solid rgb(133, 205, 250, 0.344);
+  padding: 2rem;
+  border-radius: 2rem;
+  width: 100%;
+  max-width: 450px;
+  margin: 1rem;
+  font-family: "Roboto Mono", monospace;
+  /*font-family: "Smooch Sans", sans-serif;*/
+  color: #fff;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  margin: 0 0.5rem;
+  border-radius: 50%;
+  border: none;
+  height: 2rem;
+  width: 2rem;
+}
+button:hover {
+  cursor: pointer;
+  background: rgb(215, 223, 221);
+}
+
+input.search-bar {
+  border: none;
+  outline: none;
+  width: 90%;
+  padding: 0.5rem;
+  border-radius: 1.1rem;
+  border: 1px solid #7c7c77;
+  color: rgb(70, 64, 64);
+  font-family: inherit;
+  background: rgba(177, 176, 176, 0.455);
+}
+.weather h2 {
+  margin: 1.2rem 0;
+  font-size: 2.3rem;
+  font-family: "Smooch Sans", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.5rem;
+}
+.weather h1 {
+  font-size: 3rem;
+}
+
+.description {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.margin {
+  margin: 0.45rem 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #fcf0f0;
+}
