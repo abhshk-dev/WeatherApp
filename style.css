@@ -151,8 +151,9 @@ body {
 }
 
 .card {
-  background: rgb(101 148 205 / 49%);
-  box-shadow: 18px 28px 80px;
+  /*background: rgb(101 148 205 / 49%);*/
+  background: #04030394;
+  box-shadow: 18px 28px 150px;
   border: 0.3px solid rgb(133, 205, 250, 0.344);
   padding: 2rem;
   border-radius: 2rem;
